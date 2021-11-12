@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converted Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="nav">
+        <nav>
+            <a href="https://learn.cybervie.com/">
+                <img src="cybervie.gif" alt="Cybervie Logo" width="174" height="58" />
+            </a>
+            <button type="button" class="collapsible"></button>
+        </nav>
+    </div>
+    <!-- Body -->
+    <div class="body">
+        <!-- Heading -->
+        <div class="r">
+            <div>
+                Cybervie Training Enrolment Form
+            </div>
+        </div>
+
+        <!-- Form -->
+        <div class="container">
+
+            <form action="page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="pnumber">Phone Number</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="pnumber" name="phonenumber">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="email" name="email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="educationalbackgroung">Educational Background</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="educationalbackgroung" name="educationalbackgroung">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="workexperience">Work Experience</label>
+                    </div>
+
+                    <div class="col-755">
+                        <input type="radio" id="we_fresher" name="workexperience" value="Fresher">
+                          <label for="Fresher">Fresher</label><br>
+                        <input type="radio" id="we_experienced" name="workexperience" value="Experienced">
+                          <label for="Experienced">Experienced</label><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="workexperiencedetails">Work Experience Details</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="workexperiencedetails" name="workexperiencedetails">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="expectationaftercompletionofcourse">Expectation after completion of course</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="expectationaftercompletionofcourse"
+                            name="expectationaftercompletionofcourse">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="whyCybervie">Why Cybervie?</label>
+                    </div>
+
+                    <div class="col-75">
+                        <input type="text" id="whyCybervie" name="whyCybervie">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="howdidyouknowaboutCybervie">How did you know about Cybervie?</label>
+                    </div>
+
+                    <div class="col-755">
+                        <input type="radio" id="hkc_referral" name="howdidyouknowaboutCybervie" value="Referral">
+                          <label for="Referral">Referral</label><br>
+                        <input type="radio" id="hkc_web" name="howdidyouknowaboutCybervie" value="Web">
+                          <label for="Web">Web</label><br>
+                        <input type="radio" id="hkc_others" name="howdidyouknowaboutCybervie" value="Others">
+                          <label for="Others">Others</label><br>
+                        <input type="text" id="hkc_others_text" name="howdidyouknowaboutCybervie">
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
